@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <p class="aviso hp">happy birthday Mari ♥</p>
+    <p class="aviso aviso2"><- Deslize para os lados -></p>
+    <div class="slider">
+      <div class="slide" ><img src="img/mari.png" /><p>Feliz 16 aninhos!!</p>
+      </div>
+
+      <div class="slide">
+        <div class="slide-box">
+          <img src="img/fotogu.png" alt="">
+          <p class="msg">e que ainda seja muuito ruim no jogo da velha...</p>
+        </div>
+        <p>de <span class="span01">Gu</span> para a <span class="span_ma">Mari</span></p>
+      </div>
+
+      <div class="slide">
+        <div class="slide-box">
+          <img src="img/fotolua.png" alt="">
+          <p class="msg">e pense em mil coisas quando deveria pensar em apenas uma...</p>
+        </div>
+        <p>de <span class="span01">Lua</span> para a <span class="span_ma">Mari</span></p>
+      </div>
+      
+      <div class="slide">
+        <div class="slide-box">
+          <img src="img/fotopoeira.png" alt="">
+          <p class="msg">Mari, por mais que você tenha alergia à gatinhos...</p>
+        </div>
+        <p>de <span class="span01">Poeira</span> para a <span class="span_ma">Mari</span></p>
+      </div>
+    </div>
+    <div class="letter">
+      <span class="letter-draw"></span>
+      <span class="letter-draw two"></span>
+      <div class="heart">♥</div>
+    </div>
+    <p class="aviso main-msg" id="main-msg">E finalmente chegou o dia <span class="s-voce">30 de abril</span>, lá vai meu textinho genérico de aniversário. Espero que a garota mais linda, fofa e incrível de toda o <span class="s-universo">universo</span> possa realizar todas as suas metas e tambem saber que o mundo é um lugar melhor porque <span class="s-voce">você</span> está nele. Eu (gu) sempre estarei ao seu lado e sempre te apoiarei com tudo que você precisar, não vá pro mal caminho e continue estudando bastante. Eu amo <span class="s-voce">você</span> e toda a sua <span class="s-universo">existência</span>.</p>
+    <div class="arrow"></div>
+    <p id="ask" class="aviso ask">aceitaria ir tomar <br> um caldo de cana na feira cmg?</p>
+    <div class="btn-container">
+      <button id="sim-btn" onclick="tomarCaldo()">Sim <3</button>
+      <button id="nao-btn" onclick="mudarPosicao()">Nem f*</button>
+    </div>
+    <audio id="myAudio" src="audio/music.mp3"></audio>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
